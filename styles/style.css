@@ -113,46 +113,40 @@
 }
 
 .lots {
-  padding: 0 50px;
-  margin: 180px 0 80px;
+  padding: 179px 50px 146px;  
 }
-
 
 .lots__heading {
+  margin-left: 40px;         
   font-size: 40px;
-  font-weight: bold;
   text-transform: uppercase;
+  font-weight: 700;
   margin-bottom: 27px;
 }
+
 .lots__card-list {
   display: flex;
   gap: 25px;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
-.lots__cards {
-  margin-left: -50px;
-  margin-right: -50px;
-  padding: 0 50px;
-}
-
 
 .lots__card-list-item {
-  flex: 1;
-  min-width: 0;
+  flex-grow: 1;            
+  flex-basis: 0;
 }
 
 .card {
-  position: relative;  /* для оверлея */
+  position: relative; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;  /* текст внизу, заголовок сверху */
+  justify-content: space-between;  
   height: 100%;
   background-size: cover;
   background-position: center;
   color: #fff;
-  padding: 50px 40px;  /* по макету */
+  padding: 50px 40px; 
   box-sizing: border-box;
 }
 .card_type_film {
@@ -177,7 +171,7 @@
 .card__text {
   color: #fff;
   font-size: 20px;
-  font-weight: 400; /* важно */
+  font-weight: 400;
   z-index: 2;
   margin-top: auto;
 }
